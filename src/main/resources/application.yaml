@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/tg_bot
+    username: postgres
+    password: 1
+  jpa:
+    hibernate:
+      ddl-auto: update
+    generate-ddl: false
+
+bot:
+  name: ishbozori_bot
+  token: 5598402401:AAFtbU2oGTiq8ijqsSR4bn9CvoxZaIMLKJA
+
